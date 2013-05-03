@@ -16,6 +16,8 @@ require("rle-save-binvox")(volume).pipe(process.stdout)
 
 This will pipe a binvox file to stdout.  Using [viewvox](http://www.cs.princeton.edu/~min/viewvox/) to check the result gives the following mesh:
 
+<img src=https://raw.github.com/mikolalysenko/rle-save-binvox/master/images/sphere.png>
+
 
 Install
 =======
