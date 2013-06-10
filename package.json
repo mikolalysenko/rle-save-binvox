@@ -1,6 +1,6 @@
 {
   "name": "rle-save-binvox",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Export to binvox file format",
   "main": "index.js",
   "directories": {

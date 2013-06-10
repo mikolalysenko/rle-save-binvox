@@ -39,7 +39,7 @@ function toBinvoxStream(volume, bounds, translate, scale) {
       result.write("translate 0 0 0\n")
     }
     if(scale) {
-      result.write("scale " + scale + "\n")
+      result.write("scale " + scale + "\ndata\n")
     } else {
       result.write("scale 1.0\ndata\n")
     }
